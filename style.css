@@ -67,4 +67,26 @@ body {
 /* Stile del div contenuto */
 .main-content {
     padding-left: 60px;
+    font-weight: bold;
+}
+
+.main-content h2::before {
+    content: "\2BC6";
+}
+
+.main-content .true::before {
+    content: "\002714";
+    color: rgb(5, 172, 5);
+    border: 1px solid rgb(5, 172, 5);
+}
+
+.main-content .false::before {
+    content: "\002716";
+    color: rgb(221, 0, 0);
+    border: 1px solid rgb(221, 0, 0);
+}
+.main-content .check::before {
+    margin: 8px;
+    padding: 3px;
+    border-radius: 50%;
 }
