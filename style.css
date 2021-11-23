@@ -11,7 +11,7 @@ body {
 /* Stile dell'header */
 .head-title {
     height: 80px;
-    border: 1px solid black;
+    border: 1px solid #fff;
     background-color: #fff;
 }
 
@@ -35,8 +35,9 @@ body {
     background-color: #fff;
     width: 80%;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid #fff;
     margin-top: 40px;
+    border-radius: 10px 10px 0 0;
 }
 
 /* Stile del div testata */
@@ -44,10 +45,12 @@ body {
     padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid #e9e9e9;
 }
 
+/* Stile dei pulsanti */
 .container .head-content .btn {
-    padding: 7px;
+    padding: 10px;
     border: 1px solid;
     border-radius: 10px;
 }
@@ -68,8 +71,10 @@ body {
 .main-content {
     padding-left: 60px;
     font-weight: bold;
+    padding-bottom: 60px;
 }
 
+/* Stile delle icone */
 .main-content h2::before {
     content: "\2BC6";
 }
