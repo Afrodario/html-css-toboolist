@@ -90,3 +90,43 @@ body {
     padding: 3px;
     border-radius: 50%;
 }
+
+/* Stili delle etichette */
+.main-content .tag {
+    color: #fff;
+    font-size: 11px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.main-content .editorial {
+    background-color: rgb(18, 184, 240);
+    border-color: rgb(18, 184, 240);
+}
+
+.main-content .goals {
+    background-color: rgb(177, 18, 240);
+    border-color: rgb(177, 18, 240);
+}
+
+.main-content .recruiting {
+    background-color: rgb(5, 165, 45);
+    border-color: rgb(5, 165, 45);
+}
+
+.main-content .mobile {
+    background-color: rgb(240, 121, 10);
+    border-color: rgb(240, 121, 10);
+}
+
+.main-content .website {
+    background-color: rgb(253, 2, 253);
+    border-color: rgb(253, 2, 253);
+}
+
+.main-content .sales {
+    background-color: rgb(85, 172, 15);
+    border-color: rgb(85, 172, 15);
+}
