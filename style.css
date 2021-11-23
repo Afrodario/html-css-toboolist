@@ -39,6 +39,7 @@ body {
     margin-top: 40px;
 }
 
+/* Stile del div testata */
 .head-content {
     padding-left: 60px;
     padding-top: 20px;
@@ -61,4 +62,9 @@ body {
     color: rgb(209, 202, 202);
     background-color: #fff;
     border-color: rgb(209, 202, 202);
+}
+
+/* Stile del div contenuto */
+.main-content {
+    padding-left: 60px;
 }
